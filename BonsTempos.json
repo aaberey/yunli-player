@@ -1,62 +1,62 @@
 [
   {
-    "nome": "yun li - Quando A Noite Vem (prod liwan, hakuro & yun li)",
+    "nome": "Quando A Noite Vem (prod liwan, hakuro & yun li)",
     "numero": 1,
-    "src": "music\\BonsTempos\\yun li - Quando A Noite Vem (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Quando A Noite Vem (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Oxford Shoes (prod liwan, hakuro & yun li)",
+    "nome": "Oxford Shoes (prod liwan, hakuro & yun li)",
     "numero": 2,
-    "src": "music\\BonsTempos\\yun li - Oxford Shoes (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Oxford Shoes (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Twist (prod liwan, hakuro & yun li)",
+    "nome": "Twist (prod liwan, hakuro & yun li)",
     "numero": 3,
-    "src": "music\\BonsTempos\\yun li - Twist (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Twist (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - American Dream (prod liwan, hakuro & yun li)",
+    "nome": "American Dream (prod liwan, hakuro & yun li)",
     "numero": 4,
-    "src": "music\\BonsTempos\\yun li - American Dream (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\American Dream (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - A Cidade Sem Você (prod liwan, hakuro & yun li)",
+    "nome": "A Cidade Sem Você (prod liwan, hakuro & yun li)",
     "numero": 5,
-    "src": "music\\BonsTempos\\yun li - A Cidade Sem Você (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\A Cidade Sem Você (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Um Certo Alguém (prod liwan, hakuro & yun li)",
+    "nome": "Um Certo Alguém (prod liwan, hakuro & yun li)",
     "numero": 6,
-    "src": "music\\BonsTempos\\yun li - Um Certo Alguém (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Um Certo Alguém (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Playback (prod liwan, hakuro & yun li)",
+    "nome": "Playback (prod liwan, hakuro & yun li)",
     "numero": 7,
-    "src": "music\\BonsTempos\\yun li - Playback (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Playback (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Amiga Fiel (prod liwan, hakuro & yun li)",
+    "nome": "Amiga Fiel (prod liwan, hakuro & yun li)",
     "numero": 8,
-    "src": "music\\BonsTempos\\yun li - Amiga Fiel (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Amiga Fiel (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Televisão (prod liwan, hakuro & yun li)",
+    "nome": "Televisão (prod liwan, hakuro & yun li)",
     "numero": 9,
-    "src": "music\\BonsTempos\\yun li - Televisão (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Televisão (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   },
   {
-    "nome": "yun li - Raise My Hands (prod liwan, hakuro & yun li)",
+    "nome": "Raise My Hands (prod liwan, hakuro & yun li)",
     "numero": 10,
-    "src": "music\\BonsTempos\\yun li - Raise My Hands (prod liwan, hakuro & yun li).mp3",
+    "src": "music\\BonsTempos\\Raise My Hands (prod liwan, hakuro & yun li).mp3",
     "cover": "./images/BonsTempos.png"
   }
 ]
