@@ -2,8 +2,8 @@ const fs = require('fs').promises; // Usando a versão de promessas do fs
 const path = require('path');
 const mm = require('music-metadata');
 
-var musicDir = './music/Bonda3'; // Substitua pelo caminho correto
-var coverImage = './images/Bonda3.png'; // Imagem da capa
+var musicDir = './music/Quarentapes'; // Substitua pelo caminho correto
+var coverImage = './images/Quarentapes.png'; // Imagem da capa
 
 
 
@@ -46,7 +46,7 @@ async function generateMusicList() {
     musicList.sort((a, b) => (a.numero || 0) - (b.numero || 0));
 
     console.log('Lista de músicas gerada:', musicList);
-    await fs.writeFile('Bonda3.json', JSON.stringify(musicList, null, 2));
+    await fs.writeFile('Quarentapes.json', JSON.stringify(musicList, null, 2));
     console.log('Arquivo musicas.json gerado com sucesso!');
 
   } catch (err) {

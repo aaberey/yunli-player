@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "yung lixo - mentos fresh",
+    "numero": 1,
+    "src": "music\\Quarentapes\\yung lixo - mentos fresh.mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - come-come ft elkay (prod bife)",
+    "numero": 2,
+    "src": "music\\Quarentapes\\yung lixo - come-come ft elkay (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - porsche panamera (prod bife)",
+    "numero": 3,
+    "src": "music\\Quarentapes\\yung lixo - porsche panamera (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - mil_ hunter$ ft. tibba (prod bife)",
+    "numero": 4,
+    "src": "music\\Quarentapes\\yung lixo - mil_ hunter$ ft. tibba (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - baile de  q u a r e n t e n a",
+    "numero": 5,
+    "src": "music\\Quarentapes\\yung lixo - baile de  q u a r e n t e n a.mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - samurai X (prod bife)",
+    "numero": 6,
+    "src": "music\\Quarentapes\\yung lixo - samurai X (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - assalto ao trap ft. bife (prod bife)",
+    "numero": 7,
+    "src": "music\\Quarentapes\\yung lixo - assalto ao trap ft. bife (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - ratatouille (prod bife)",
+    "numero": 8,
+    "src": "music\\Quarentapes\\yung lixo - ratatouille (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yung lixo - yamete (prod bife)",
+    "numero": 9,
+    "src": "music\\Quarentapes\\yung lixo - yamete (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  }
+]
