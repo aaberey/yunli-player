@@ -1,74 +1,74 @@
 [
   {
-    "nome": "Yung Lixo, Hakuro - Sucesso FM",
+    "nome": "Sucesso FM",
     "numero": 1,
-    "src": "music\\Validation\\Yung Lixo, Hakuro - Sucesso FM.mp3",
+    "src": "music\\Validation\\Sucesso FM.mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo - Rumo à Vitória",
+    "nome": "Rumo à Vitória",
     "numero": 2,
-    "src": "music\\Validation\\Yung Lixo - Rumo à Vitória.mp3",
+    "src": "music\\Validation\\Rumo à Vitória.mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Biffe - Goddamn (feat. Biffe)",
+    "nome": "Goddamn (feat. Biffe)",
     "numero": 3,
-    "src": "music\\Validation\\Yung Lixo, Biffe - Goddamn (feat. Biffe).mp3",
+    "src": "music\\Validation\\Goddamn (feat. Biffe).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Massaru - I Walk (feat. Massaru)",
+    "nome": "I Walk (feat. Massaru)",
     "numero": 4,
-    "src": "music\\Validation\\Yung Lixo, Massaru - I Walk (feat. Massaru).mp3",
+    "src": "music\\Validation\\I Walk (feat. Massaru).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Hakuro - Waiting to Fly",
+    "nome": "Waiting to Fly",
     "numero": 5,
-    "src": "music\\Validation\\Yung Lixo, Hakuro - Waiting to Fly.mp3",
+    "src": "music\\Validation\\Waiting to Fly.mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Hakuro - Sonhar",
+    "nome": "Sonhar",
     "numero": 6,
-    "src": "music\\Validation\\Yung Lixo, Hakuro - Sonhar.mp3",
+    "src": "music\\Validation\\Sonhar.mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Astrus_ - I'm in Love (feat. Astrus_)",
+    "nome": "I'm in Love (feat. Astrus_)",
     "numero": 7,
-    "src": "music\\Validation\\Yung Lixo, Astrus_ - I'm in Love (feat. Astrus_).mp3",
+    "src": "music\\Validation\\I'm in Love (feat. Astrus_).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, MAIK sbkaos - For my Family (feat. MAIK sbkaos)",
+    "nome": "For my Family (feat. MAIK sbkaos)",
     "numero": 8,
-    "src": "music\\Validation\\Yung Lixo, MAIK sbkaos - For my Family (feat. MAIK sbkaos).mp3",
+    "src": "music\\Validation\\For my Family (feat. MAIK sbkaos).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, The Merk - Going Home (feat. The Merk)",
+    "nome": "Going Home (feat. The Merk)",
     "numero": 9,
-    "src": "music\\Validation\\Yung Lixo, The Merk - Going Home (feat. The Merk).mp3",
+    "src": "music\\Validation\\Going Home (feat. The Merk).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Biffe - The Lord and Me (feat. Biffe)",
+    "nome": "The Lord and Me (feat. Biffe)",
     "numero": 10,
-    "src": "music\\Validation\\Yung Lixo, Biffe - The Lord and Me (feat. Biffe).mp3",
+    "src": "music\\Validation\\The Lord and Me (feat. Biffe).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Biffe - Anjos da Guarda (feat. Biffe)",
+    "nome": "Anjos da Guarda (feat. Biffe)",
     "numero": 11,
-    "src": "music\\Validation\\Yung Lixo, Biffe - Anjos da Guarda (feat. Biffe).mp3",
+    "src": "music\\Validation\\Anjos da Guarda (feat. Biffe).mp3",
     "cover": "./images/Validation.png"
   },
   {
-    "nome": "Yung Lixo, Hakuro - We Gold",
+    "nome": "We Gold",
     "numero": 12,
-    "src": "music\\Validation\\Yung Lixo, Hakuro - We Gold.mp3",
+    "src": "music\\Validation\\We Gold.mp3",
     "cover": "./images/Validation.png"
   }
 ]
