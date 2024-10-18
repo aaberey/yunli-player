@@ -122,6 +122,7 @@ function loadTrack(index, shouldplay) {
   audioPlayer.src = trackSrc;
   coverImage.src = coverSrc;
   if (shouldplay) { audioPlayer.play(); playBtn.textContent = '⏸️'; }
+  currentPage = 0;
   
 
   // Remove a classe 'active' de todos os itens

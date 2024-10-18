@@ -58,17 +58,5 @@
     "numero": 10,
     "src": "music\\Hyperpoop\\SPG - FLATULÊNCIA E VIOLÊNCIA.mp3",
     "cover": "./images/Hyperpoop.png"
-  },
-  {
-    "nome": "SPG CLIPE FUNNY POOP SUPER COOL versao final.mov",
-    "numero": 11,
-    "src": "music\\Hyperpoop\\SPG CLIPE FUNNY POOP SUPER COOL versao final.mov.mp3",
-    "cover": "./images/Hyperpoop.png"
-  },
-  {
-    "nome": "SPG CLIPE FUNNY POOP AUDIO RECUPERADO.mov",
-    "numero": 12,
-    "src": "music\\Hyperpoop\\SPG CLIPE FUNNY POOP AUDIO RECUPERADO.mov.mp3",
-    "cover": "./images/Hyperpoop.png"
   }
 ]
