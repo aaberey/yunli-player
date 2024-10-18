@@ -1,0 +1,74 @@
+[
+  {
+    "nome": "yun li - saúde (prod hakuro & yun li)",
+    "numero": 1,
+    "src": "music\\Bittersweet\\yun li - saúde (prod hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - o filho pródigo (prod biffe, hakuro & yun li)",
+    "numero": 2,
+    "src": "music\\Bittersweet\\yun li - o filho pródigo (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - let it pour (prod biffe, hakuro & yun li)",
+    "numero": 3,
+    "src": "music\\Bittersweet\\yun li - let it pour (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - the story (prod biffe, hakuro & yun li)",
+    "numero": 4,
+    "src": "music\\Bittersweet\\yun li - the story (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - back home ft massaru (prod biffe, hakuro & yun li)",
+    "numero": 5,
+    "src": "music\\Bittersweet\\yun li - back home ft massaru (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - melhor não ft aki punou (prod biffe, hakuro & yun li)",
+    "numero": 6,
+    "src": "music\\Bittersweet\\yun li - melhor não ft aki punou (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - oldschool ft biffe (prod biffe, hakuro & yun li)",
+    "numero": 7,
+    "src": "music\\Bittersweet\\yun li - oldschool ft biffe (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - dirty dancing (prod biffe, hakuro & yun li)",
+    "numero": 8,
+    "src": "music\\Bittersweet\\yun li - dirty dancing (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - prefiro morrer ft d$ luqi (prod biffe, hakuro & yun li)",
+    "numero": 9,
+    "src": "music\\Bittersweet\\yun li - prefiro morrer ft d$ luqi (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - quase perfeito (prod biffe, hakuro & yun li)",
+    "numero": 10,
+    "src": "music\\Bittersweet\\yun li - quase perfeito (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - máquina do tempo  (official video)",
+    "numero": 11,
+    "src": "music\\Bittersweet\\yun li - máquina do tempo  (official video).mp3",
+    "cover": "./images/Bittersweet.png"
+  },
+  {
+    "nome": "yun li - flores de outro carnaval (prod biffe, hakuro & yun li)",
+    "numero": 12,
+    "src": "music\\Bittersweet\\yun li - flores de outro carnaval (prod biffe, hakuro & yun li).mp3",
+    "cover": "./images/Bittersweet.png"
+  }
+]
