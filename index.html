@@ -43,7 +43,9 @@
       document.body.style.backgroundImage = originalGradient;
       document.querySelector('.progress-bar').style.backgroundColor = progressColor;
       document.querySelector('.playlist').style.backgroundColor = playlistColor;
-      loadTracks(albb);
+
+      currentTrackIndex = 0; // Reseta o índice para a primeira faixa
+      loadTracks(albb); // Carrega as músicas do novo álbum
     }
 
     function BonsTempos() {
