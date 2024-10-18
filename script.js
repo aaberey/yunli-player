@@ -224,25 +224,7 @@ volumeBarContainer.addEventListener('click', (event) => {
 // Carregar músicas ao iniciar
 loadTracks();
 
-/// Evento de fim da música
-audioPlayer.addEventListener('ended', () => {
-  if (isShuffle) {
-    let newTrackIndex;
-    do {
-      newTrackIndex = Math.floor(Math.random() * tracks.length);
-    } while (newTrackIndex === previousTrackIndex);
 
-    currentTrackIndex = newTrackIndex;
-  } else {
-    currentTrackIndex = (currentTrackIndex + 1) % tracks.length; // Avança para a próxima música
-  }
-  
-  previousTrackIndex = currentTrackIndex; // Atualiza o índice da música anterior
-  goToTrackPage(currentTrackIndex); // Vai para a página da música atual
-  loadTrack(currentTrackIndex); // Carrega a nova música
-  audioPlayer.play(); // Inicia a reprodução da nova música
-  playBtn.textContent = '⏸️'; // Muda o botão para "pause"
-});
 
 // Função para calcular a página da música atual
 function calculatePageForTrack(index) {
