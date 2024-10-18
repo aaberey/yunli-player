@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "BIKE",
+    "numero": 1,
+    "src": "music\\SEGURA\\BIKE.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "SUADOBOYS",
+    "numero": 2,
+    "src": "music\\SEGURA\\SUADOBOYS.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "POBRE",
+    "numero": 3,
+    "src": "music\\SEGURA\\POBRE.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "TUA MÃE ME LIGOU",
+    "numero": 4,
+    "src": "music\\SEGURA\\TUA MÃE ME LIGOU.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "OTACO",
+    "numero": 5,
+    "src": "music\\SEGURA\\OTACO.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "EDGYKIDS",
+    "numero": 6,
+    "src": "music\\SEGURA\\EDGYKIDS.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "NARUTIN",
+    "numero": 7,
+    "src": "music\\SEGURA\\NARUTIN.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "EU ODEIO OS MINIONS",
+    "numero": 8,
+    "src": "music\\SEGURA\\EU ODEIO OS MINIONS.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "DRAKE & JOSH",
+    "numero": 9,
+    "src": "music\\SEGURA\\DRAKE & JOSH.mp3",
+    "cover": "./images/SEGURA.png"
+  },
+  {
+    "nome": "FREESTYLE FODA ft. ZR",
+    "numero": 10,
+    "src": "music\\SEGURA\\FREESTYLE FODA ft. ZR.mp3",
+    "cover": "./images/SEGURA.png"
+  }
+]

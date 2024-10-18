@@ -177,8 +177,8 @@ body {
 }
 
 .playlist li {
+  color: white;
   padding: 10px;
-  color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -214,7 +214,7 @@ body {
 .pagination-btn {
   background: none;
   border: none;
-  color: #ffffff;
+
   cursor: pointer;
   font-size: 24px;
   margin: 0 10px;
@@ -247,5 +247,5 @@ body {
 
   .pagination-btn {
     font-size: 20px;
-  }
+  }  
 }

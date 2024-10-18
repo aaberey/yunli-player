@@ -47,6 +47,10 @@
       loadTracks(albb); // Carrega as músicas do novo álbum
     }
 
+    function SEGURA() {
+      changeAlbum("SEGURA.json", "./images/SEGURA.png", "linear-gradient(270deg, #000000, #4C5261)", "#9D98AA", "#141414");
+    }
+
     function BonsTempos() {
       changeAlbum("BonsTempos.json", "./images/BonsTempos.png", "linear-gradient(270deg, #000000, #151322)", "#312159", "#312159");
     }
@@ -92,6 +96,7 @@
 <body>
   <div class="butaos">
     <div class="button-container">
+      <button class="styled-button" onclick="SEGURA();">SEGURA ESSE MOLEQUE</button>
       <button class="styled-button" onclick="Quarentapes();">Quarentapes</button>
       <button class="styled-button" onclick="Cybertapes();">Cybertapes</button>
       <button class="styled-button" onclick="Bonda1();">Bonda 1</button>
@@ -130,7 +135,7 @@
     </div>
 
     <div class="playlist">
-      <ul id="playlist"></ul>
+      <ul id="playlist" class="list"></ul>
       <div class="pagination">
         <button id="prev-page" class="pagination-btn">⬅️</button>
         <span id="page-info"></span>
