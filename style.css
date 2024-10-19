@@ -25,6 +25,21 @@ body {
 
 }
 
+.bttncontrols{
+  filter: invert(1);
+}
+
+.shufflebttn
+{   
+  filter: invert(21%) sepia(63%) saturate(6678%) hue-rotate(330deg) brightness(78%) contrast(114%);
+  cursor: pointer;
+}
+
+.bttncontrolsinvertidahorizontalmente{
+  filter: invert(1);
+  transform: scaleX(-1);
+}
+
 #background-overlay {
   position: fixed; /* Fica fixo em relação à tela */
   top: 0;
