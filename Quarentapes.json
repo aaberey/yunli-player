@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "mentos fresh",
+    "numero": 1,
+    "src": "music\\Quarentapes\\mentos fresh.mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "come-come ft elkay (prod bife)",
+    "numero": 2,
+    "src": "music\\Quarentapes\\come-come ft elkay (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "porsche panamera (prod bife)",
+    "numero": 3,
+    "src": "music\\Quarentapes\\porsche panamera (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "milf hunter$ ft. tibba (prod bife)",
+    "numero": 4,
+    "src": "music\\Quarentapes\\milf hunter$ ft. tibba (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "baile de  q u a r e n t e n a",
+    "numero": 5,
+    "src": "music\\Quarentapes\\baile de  q u a r e n t e n a.mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "samurai X (prod bife)",
+    "numero": 6,
+    "src": "music\\Quarentapes\\samurai X (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "assalto ao trap ft. bife (prod bife)",
+    "numero": 7,
+    "src": "music\\Quarentapes\\assalto ao trap ft. bife (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "ratatouille (prod bife)",
+    "numero": 8,
+    "src": "music\\Quarentapes\\ratatouille (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  },
+  {
+    "nome": "yamete (prod bife)",
+    "numero": 9,
+    "src": "music\\Quarentapes\\yamete (prod bife).mp3",
+    "cover": "./images/Quarentapes.png"
+  }
+]

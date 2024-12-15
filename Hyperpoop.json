@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "SPG - FUNNY POOP SUPER COOL",
+    "numero": 1,
+    "src": "music\\Hyperpoop\\SPG - FUNNY POOP SUPER COOL.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - O ALQUIMISTA",
+    "numero": 2,
+    "src": "music\\Hyperpoop\\SPG - O ALQUIMISTA.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - SCOOBY-POO",
+    "numero": 3,
+    "src": "music\\Hyperpoop\\SPG - SCOOBY-POO.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - HOMUNCULUS",
+    "numero": 4,
+    "src": "music\\Hyperpoop\\SPG - HOMUNCULUS.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - DONA DE CASA",
+    "numero": 5,
+    "src": "music\\Hyperpoop\\SPG - DONA DE CASA.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - KARAGUEI",
+    "numero": 6,
+    "src": "music\\Hyperpoop\\SPG - KARAGUEI.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - O BURACO PERFEITO ft Bhor Habill",
+    "numero": 7,
+    "src": "music\\Hyperpoop\\SPG - O BURACO PERFEITO ft Bhor Habill.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - BOCA DE PELO",
+    "numero": 8,
+    "src": "music\\Hyperpoop\\SPG - BOCA DE PELO.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - ATIRADORES",
+    "numero": 9,
+    "src": "music\\Hyperpoop\\SPG - ATIRADORES.mp3",
+    "cover": "./images/Hyperpoop.png"
+  },
+  {
+    "nome": "SPG - FLATULÊNCIA E VIOLÊNCIA",
+    "numero": 10,
+    "src": "music\\Hyperpoop\\SPG - FLATULÊNCIA E VIOLÊNCIA.mp3",
+    "cover": "./images/Hyperpoop.png"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "O Dia Em Que Eles o Encontraram",
+    "numero": "1",
+    "src": "music/SPGsolsticio/O Dia Em Que Eles o Encontraram.mp3",
+    "cover": "images/SPGsolsticio.png"
+  },
+  {
+    "nome": "Tipos de Carinha (Depressão)",
+    "numero": "2",
+    "src": "music/SPGsolsticio/Tipos de Carinha (Depressão).mp3",
+    "cover": "images/SPGsolsticio.png"
+  },
+  {
+    "nome": "2001 Coisas Que Odeio Em Você",
+    "numero": "3",
+    "src": "music/SPGsolsticio/2001 Coisas Que Odeio Em Você.mp3",
+    "cover": "images/SPGsolsticio.png"
+  },
+  {
+    "nome": "Crème Brûlée e Outras Receitas",
+    "numero": "4",
+    "src": "music/SPGsolsticio/Crème Brûlée e Outras Receitas.mp3",
+    "cover": "images/SPGsolsticio.png"
+  },
+  {
+    "nome": "Uma Carta para Isabel",
+    "numero": "5",
+    "src": "music/SPGsolsticio/Uma Carta para Isabel.mp3",
+    "cover": "images/SPGsolsticio.png"
+  }
+]

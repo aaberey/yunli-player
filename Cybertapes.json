@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "noite - yun li (prod biffe)",
+    "numero": 1,
+    "src": "music\\Cybertapes\\noite - yun li (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "ghost chroma - yun li (prod biffe)",
+    "numero": 2,
+    "src": "music\\Cybertapes\\ghost chroma - yun li (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "diamante e peixes - yun li (prod biffe)",
+    "numero": 3,
+    "src": "music\\Cybertapes\\diamante e peixes - yun li (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "akira - yun li ft emori (prod biffe)",
+    "numero": 4,
+    "src": "music\\Cybertapes\\akira - yun li ft emori (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "9mm - yun li ft d$ luqi (prod biffe)",
+    "numero": 5,
+    "src": "music\\Cybertapes\\9mm - yun li ft d$ luqi (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "tapa - yun li ft tibba (prod biffe)",
+    "numero": 6,
+    "src": "music\\Cybertapes\\tapa - yun li ft tibba (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "festa - yun li (prod tkd)",
+    "numero": 7,
+    "src": "music\\Cybertapes\\festa - yun li (prod tkd).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "smooth af - yun li ft biffe (prod biffe)",
+    "numero": 8,
+    "src": "music\\Cybertapes\\smooth af - yun li ft biffe (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "fantasmas - yun li (prod 5053)",
+    "numero": 9,
+    "src": "music\\Cybertapes\\fantasmas - yun li (prod 5053).mp3",
+    "cover": "./images/Cybertapes.png"
+  },
+  {
+    "nome": "hitomi - yun li (prod biffe)",
+    "numero": 10,
+    "src": "music\\Cybertapes\\hitomi - yun li (prod biffe).mp3",
+    "cover": "./images/Cybertapes.png"
+  }
+]

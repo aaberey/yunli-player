@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "ARABIA MALDITA",
+    "numero": "1",
+    "src": "music/bhorhabill/ARABIA MALDITA.mp3",
+    "cover": "images/bhorhabill.png"
+  },
+  {
+    "nome": "ORIENTE MEDIO ft SPG",
+    "numero": "2",
+    "src": "music/bhorhabill/ORIENTE MEDIO ft SPG.mp3",
+    "cover": "images/bhorhabill.png"
+  },
+  {
+    "nome": "PIROTECNIA E AFINS",
+    "numero": "3",
+    "src": "music/bhorhabill/PIROTECNIA E AFINS.mp3",
+    "cover": "images/bhorhabill.png"
+  },
+  {
+    "nome": "SONHO MEDITERRANEO",
+    "numero": "4",
+    "src": "music/bhorhabill/SONHO MEDITERRANEO.mp3",
+    "cover": "images/bhorhabill.png"
+  },
+  {
+    "nome": "PARA TODAS LATIFAS QUE JÁ AMEI",
+    "numero": "5",
+    "src": "music/bhorhabill/PARA TODAS LATIFAS QUE JÁ AMEI.mp3",
+    "cover": "images/bhorhabill.png"
+  }
+]

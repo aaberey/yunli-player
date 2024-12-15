@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Palhaço Corp Inc",
+    "numero": "1",
+    "src": "music/palhacocorp/Palhaço Corp Inc.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Aqueducto",
+    "numero": "2",
+    "src": "music/palhacocorp/Aqueducto.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Psicopalhaçada",
+    "numero": "3",
+    "src": "music/palhacocorp/Psicopalhaçada.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Freakshow Total",
+    "numero": "4",
+    "src": "music/palhacocorp/Freakshow Total.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Vem Viajar",
+    "numero": "5",
+    "src": "music/palhacocorp/Vem Viajar.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Dr0gas do X4nax",
+    "numero": "6",
+    "src": "music/palhacocorp/Dr0gas do X4nax.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Love Arlequinas",
+    "numero": "7",
+    "src": "music/palhacocorp/Love Arlequinas.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Bip Bop",
+    "numero": "8",
+    "src": "music/palhacocorp/Bip Bop.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Carro Palhaço",
+    "numero": "9",
+    "src": "music/palhacocorp/Carro Palhaço.mp3",
+    "cover": "images/palhacocorp.png"
+  },
+  {
+    "nome": "Diss Pro Tony Kill",
+    "numero": "10",
+    "src": "music/palhacocorp/Diss Pro Tony Kill.mp3",
+    "cover": "images/palhacocorp.png"
+  }
+]

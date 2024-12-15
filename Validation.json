@@ -1,0 +1,74 @@
+[
+  {
+    "nome": "Sucesso FM",
+    "numero": 1,
+    "src": "music\\Validation\\Sucesso FM.mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Rumo à Vitória",
+    "numero": 2,
+    "src": "music\\Validation\\Rumo à Vitória.mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Goddamn (feat. Biffe)",
+    "numero": 3,
+    "src": "music\\Validation\\Goddamn (feat. Biffe).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "I Walk (feat. Massaru)",
+    "numero": 4,
+    "src": "music\\Validation\\I Walk (feat. Massaru).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Waiting to Fly",
+    "numero": 5,
+    "src": "music\\Validation\\Waiting to Fly.mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Sonhar",
+    "numero": 6,
+    "src": "music\\Validation\\Sonhar.mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "I'm in Love (feat. Astrus_)",
+    "numero": 7,
+    "src": "music\\Validation\\I'm in Love (feat. Astrus_).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "For my Family (feat. MAIK sbkaos)",
+    "numero": 8,
+    "src": "music\\Validation\\For my Family (feat. MAIK sbkaos).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Going Home (feat. The Merk)",
+    "numero": 9,
+    "src": "music\\Validation\\Going Home (feat. The Merk).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "The Lord and Me (feat. Biffe)",
+    "numero": 10,
+    "src": "music\\Validation\\The Lord and Me (feat. Biffe).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "Anjos da Guarda (feat. Biffe)",
+    "numero": 11,
+    "src": "music\\Validation\\Anjos da Guarda (feat. Biffe).mp3",
+    "cover": "./images/Validation.png"
+  },
+  {
+    "nome": "We Gold",
+    "numero": 12,
+    "src": "music\\Validation\\We Gold.mp3",
+    "cover": "./images/Validation.png"
+  }
+]

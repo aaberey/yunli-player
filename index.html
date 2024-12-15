@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yun Li Player</title>
+  <link rel="stylesheet" href="style.css">
+  <script> 
+    let albb = "Bonda4.json";
+    let originalGradient = ""; // Variável para armazenar o gradiente original
+
+    function changeBackground() {
+      // Muda a cor de fundo para preto
+      document.body.style.backgroundColor = "#000000";
+
+      // Piscar de fundo por 5 segundos
+      let startTime = Date.now();
+
+      const interval = setInterval(() => {
+        // Alterna entre preto e o gradiente original
+        if (document.body.style.backgroundColor === "rgb(0, 0, 0)") {
+          document.body.style.backgroundColor = originalGradient ? "" : "#000000"; // Se a cor for preto, volta ao original
+        } else {
+          document.body.style.backgroundColor = "#000000"; // Se não, muda para preto
+        }
+
+        // Verifica se já passaram 5 segundos
+        if (Date.now() - startTime > 5000) {
+          clearInterval(interval); // Para o intervalo após 5 segundos
+          document.body.style.backgroundColor = originalGradient || ""; // Remove a cor de fundo, voltando para o original
+        }
+      }, 500); // Altera a cada 500 milissegundos
+    }
+
+    function changeAlbum(albumName, imagePath, gradient, progressColor, playlistColor) {
+      // Armazena o gradiente original antes de mudar
+      originalGradient = gradient;
+      changeBackground(); // Chama a função para mudar o fundo
+      
+      var img = document.getElementById("cover-image");
+      img.src = imagePath;
+      albb = albumName;
+      document.body.style.backgroundImage = originalGradient;
+      document.querySelector('.progress-bar').style.backgroundColor = progressColor;
+      document.querySelector('.playlist').style.backgroundColor = playlistColor;
+      currentTrackIndex = 0; // Reseta o índice para a primeira faixa
+      loadTracks(albb); // Carrega as músicas do novo álbum
+    }
+
+    function SEGURA() {
+      changeAlbum("SEGURA.json", "./images/SEGURA.png", "linear-gradient(270deg, #000000, #4C5261)", "#9D98AA", "#141414");
+    }
+
+    function BonsTempos() {
+      changeAlbum("BonsTempos.json", "./images/BonsTempos.png", "linear-gradient(270deg, #000000, #151322)", "#312159", "#312159");
+    }
+
+    function Bonda1() {
+      changeAlbum("Bonda1.json", "./images/Bonda1.png", "linear-gradient(270deg, #25B434, #E0355D)", "#25B434", "#25B434");
+    }
+
+    function Bonda2() {
+      changeAlbum("Bonda2.json", "./images/Bonda2.png", "linear-gradient(270deg, #000000, #B3643E)", "#C87245", "#C87245");
+    }
+
+    function Bonda3() {
+      changeAlbum("Bonda3.json", "./images/Bonda3.png", "linear-gradient(270deg, #000000, #611111)", "#E8223B", "#820F29");
+    }
+
+    function Bonda4() {
+      changeAlbum("Bonda4.json", "./images/Bonda4.png", "linear-gradient(270deg, #000000, #611111)", "#E8223B", "#820F29");
+    }
+
+    function Validation() {
+      changeAlbum("Validation.json", "./images/Validation.png", "linear-gradient(270deg, #000000, #00799A)", "#0182A2", "#002D3E");
+    }
+
+    function Bittersweet() {
+      changeAlbum("Bittersweet.json", "./images/Bittersweet.png", "linear-gradient(270deg, #000000, #4D130B)", "#FFE849", "#480800");
+    }
+
+    function Quarentapes() {
+      changeAlbum("Quarentapes.json", "./images/Quarentapes.png", "linear-gradient(270deg, #000000, #FFDB00)", "#FFDD00", "#95751C");
+    }
+
+    function Cybertapes() {
+      changeAlbum("Cybertapes.json", "./images/Cybertapes.png", "linear-gradient(270deg, #000000, #30043B)", "#7B4EB7", "#30043B");
+    }
+
+    function Hyperpoop() {
+      changeAlbum("Hyperpoop.json", "./images/Hyperpoop.png", "linear-gradient(270deg, #000000, #390907)", "#BC0B0A", "#860B0A");
+    }
+
+    function SPG2() {
+      changeAlbum("SPG2.json", "./images/SPG2.png", "linear-gradient(270deg, #000000, #4C5261)", "#9D98AA", "#141414");
+    }
+
+    function SPG3() {
+      changeAlbum("SPG3.json", "./images/SPG3.png", "linear-gradient(270deg, #000000, #4C5261)", "#9D98AA", "#141414");
+    }
+
+    function SPGsols() {
+      changeAlbum("SPGsolsticio.json", "./images/SPGsolsticio.png", "linear-gradient(270deg, #000000, #4C5261)", "#9D98AA", "#141414");
+    }
+
+    function palho() {
+      changeAlbum("palhacocorp.json", "./images/palhacocorp.png", "linear-gradient(270deg, #000000, #611111)", "#E8223B", "#820F29");
+    }
+
+    function SPG4() {
+      changeAlbum("SPG4.json", "./images/SPG4.png", "linear-gradient(270deg, #000000, #611111)", "#E8223B", "#820F29");
+    }
+
+    function bhorhabill() {
+      changeAlbum("bhorhabill.json", "./images/bhorhabill.png", "linear-gradient(270deg, #000000, #611111)", "#E8223B", "#820F29");
+    }
+    function toggleAlbums(artist) {
+  const albums = document.querySelectorAll(`.albums.${artist}`);
+  albums.forEach(album => {
+    album.style.display = album.style.display === "none" ? "block" : "none";
+  });
+}
+
+// Função para alternar as cores dos botões
+function toggleButtonColor(button) {
+  // Alterna a classe 'inverted' para o botão clicado
+  button.classList.toggle('inverted');
+}
+
+let lastClickedButton = null;
+
+function toggleButtonColor(button) {
+  if (lastClickedButton) {
+    // Desinverte o botão anterior
+    lastClickedButton.classList.remove('inverted');
+  }
+
+
+  
+  // Inverte o botão atual
+  button.classList.add('inverted');
+  
+  // Atualiza o botão clicado para ser o último
+  lastClickedButton = button;
+}
+
+  // Função para alternar as cores dos botões
+  function toggleButtonColorr(button) {
+  // Alterna a classe 'inverted' para o botão clicado
+  button.classList.toggle('inverted');
+}
+</script>
+</head>
+
+<body>
+  <div class="butaos">
+    <!-- Botões para selecionar os artistas -->
+    <div class="artists button-container">
+      <button class="styled-button" onclick="toggleButtonColorr(this); toggleAlbums('YungLixo')">Yung Lixo</button>
+      <button class="styled-button" onclick="toggleButtonColorr(this); toggleAlbums('Bonda')">Bonda</button>
+      <button class="styled-button" onclick="toggleButtonColorr(this); toggleAlbums('SPG')">SPG</button>
+      <button class="styled-button" onclick="toggleButtonColorr(this); toggleAlbums('YunLi')">Yun Li</button>
+    </div>
+
+
+    <!-- Álbuns de Yung Lixo -->
+    <div class="albums YungLixo" style="display:none;">
+      <button class="styled-button" onclick="toggleButtonColor(this); SEGURA()">SEGURA ESSE MOLEQUE</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Quarentapes()">Quarentapes</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Cybertapes()">Cybertapes</button>
+    </div>
+
+    <!-- Álbuns de Bonda -->
+    <div class="albums Bonda" style="display:none;">
+      <button class="styled-button" onclick="toggleButtonColor(this); Bonda1()">Bonda 1</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Bonda2()">Bonda 2</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Bonda3()">Bonda 3</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Bonda4()">Bonda 4</button>
+    </div>
+
+    <!-- Álbuns de SPG -->
+    <div class="albums SPG" style="display:none;">
+      <button class="styled-button" onclick="toggleButtonColor(this); Hyperpoop()">Hyperpoop</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); SPG2()">BEM VINDO AO NOSSO MUNDO</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); SPG3()">SUJOS E INDELICADOS</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); SPGsols()">Só Mais um Solstício em Capão da Canoa pt ll</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); palho()">PaLhAçO CoRp</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); SPG4()">CONTRATO DE SANGUE</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); bhorhabill()">BHOR HABILL E OS 40 AVIÕES</button>
+    </div>
+
+    <!-- Álbuns de Yun Li -->
+    <div class="albums YunLi" style="display:none;">
+      <button class="styled-button" onclick="toggleButtonColor(this); Validation()">Validation</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); Bittersweet()">Bittersweet Memories</button>
+      <button class="styled-button" onclick="toggleButtonColor(this); BonsTempos()">Bons Tempos</button>
+    </div>
+  </div>
+
+  <div class="player-container">
+    <div class="player">
+      <img id="cover-image" src="images/Gema.png" alt="Capa da Música" class="cover-image">
+      
+      <!-- Barra de Progresso -->
+      <div class="progress-bar-container" id="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      
+      <!-- Barra de Volume -->
+      <div class="volume-bar-container" id="volume-bar-container">
+        <div id="volume-bar" class="volume-bar"></div>
+      </div>
+
+      <div class="controls">
+        <button id="prev-btn" class="control-btn">
+          <!--voltarmusica--><svg class="bttncontrolsinvertidahorizontalmente" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416L0 96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3l0 41.7 0 41.7L52.5 440.6zM256 352l0-96 0-128 0-32c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29l0-64z"/></svg>
+        </button>
+        <button id="play-btn" class="control-btn">
+          <!--play--><svg class="bttncontrols" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="15"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>       
+        </button>
+        
+        <button id="next-btn" class="control-btn">
+          <!--avançarmusica--><svg class="bttncontrols" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416L0 96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3l0 41.7 0 41.7L52.5 440.6zM256 352l0-96 0-128 0-32c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29l0-64z"/></svg>
+        </button>
+        <button id="shuffle-btn" class="control-btn">
+          <!--shuffle--><svg class="shufflebttn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0c-10.1 0-19.6 4.7-25.6 12.8L284 229.3 244 176l31.2-41.6C293.3 110.2 321.8 96 352 96l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6zM164 282.7L204 336l-31.2 41.6C154.7 401.8 126.2 416 96 416l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c10.1 0 19.6-4.7 25.6-12.8L164 282.7zm274.6 188c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="playlist">
+      <ul id="playlist" class="list"></ul>
+      <div class="pagination">
+        <button id="prev-page" class="pagination-btn"><svg class="bttncontrolsinvertidahorizontalmente" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>
+        <span id="page-info"></span>
+        <button id="next-page" class="pagination-btn"><svg class="bttncontrols" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="audio-player"></audio>
+  <script src="script.js"></script>
+  </body>
+</html>

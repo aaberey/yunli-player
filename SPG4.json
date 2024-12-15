@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "FREAKY FREAKY FRIDAYS",
+    "numero": "1",
+    "src": "music/SPG4/FREAKY FREAKY FRIDAYS.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "ONOMATOPEIAS",
+    "numero": "2",
+    "src": "music/SPG4/ONOMATOPEIAS.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "DE TRÁS DAS BARRAS FT GERSON SANCHEZ",
+    "numero": "3",
+    "src": "music/SPG4/DE TRÁS DAS BARRAS FT GERSON SANCHEZ.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "ABOMINAVEL HOMEM DAS FEZES",
+    "numero": "4",
+    "src": "music/SPG4/ABOMINAVEL HOMEM DAS FEZES.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "SIGNOS",
+    "numero": "5",
+    "src": "music/SPG4/SIGNOS.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "ECTOPLASMA",
+    "numero": "6",
+    "src": "music/SPG4/ECTOPLASMA.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "TORANDO TUDO",
+    "numero": "7",
+    "src": "music/SPG4/TORANDO TUDO.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "ODALISCA ESCANDALOSA FT BHOR HABILL",
+    "numero": "8",
+    "src": "music/SPG4/ODALISCA ESCANDALOSA FT BHOR HABILL.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "NUNCA CONFIE EM NENHUMA GRAVADORA",
+    "numero": "9",
+    "src": "music/SPG4/NUNCA CONFIE EM NENHUMA GRAVADORA.mp3",
+    "cover": "images/SPG4.png"
+  },
+  {
+    "nome": "YOU AND I(SABEL)",
+    "numero": "10",
+    "src": "music/SPG4/YOU AND I(SABEL).mp3",
+    "cover": "images/SPG4.png"
+  }
+]

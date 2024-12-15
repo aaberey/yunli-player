@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Quando A Noite Vem (prod liwan, hakuro & yun li)",
+    "numero": 1,
+    "src": "music\\BonsTempos\\Quando A Noite Vem (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Oxford Shoes (prod liwan, hakuro & yun li)",
+    "numero": 2,
+    "src": "music\\BonsTempos\\Oxford Shoes (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Twist (prod liwan, hakuro & yun li)",
+    "numero": 3,
+    "src": "music\\BonsTempos\\Twist (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "American Dream (prod liwan, hakuro & yun li)",
+    "numero": 4,
+    "src": "music\\BonsTempos\\American Dream (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "A Cidade Sem Você (prod liwan, hakuro & yun li)",
+    "numero": 5,
+    "src": "music\\BonsTempos\\A Cidade Sem Você (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Um Certo Alguém (prod liwan, hakuro & yun li)",
+    "numero": 6,
+    "src": "music\\BonsTempos\\Um Certo Alguém (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Playback (prod liwan, hakuro & yun li)",
+    "numero": 7,
+    "src": "music\\BonsTempos\\Playback (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Amiga Fiel (prod liwan, hakuro & yun li)",
+    "numero": 8,
+    "src": "music\\BonsTempos\\Amiga Fiel (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Televisão (prod liwan, hakuro & yun li)",
+    "numero": 9,
+    "src": "music\\BonsTempos\\Televisão (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  },
+  {
+    "nome": "Raise My Hands (prod liwan, hakuro & yun li)",
+    "numero": 10,
+    "src": "music\\BonsTempos\\Raise My Hands (prod liwan, hakuro & yun li).mp3",
+    "cover": "./images/BonsTempos.png"
+  }
+]

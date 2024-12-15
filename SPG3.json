@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Introdução ao Cocozão",
+    "numero": "1",
+    "src": "music/SPG3/Introdução ao Cocozão.mp3",
+    "cover": "images/SPG3.png"
+  },
+  {
+    "nome": "Playsson's Mandamentows",
+    "numero": "2",
+    "src": "music/SPG3/Playsson's Mandamentows.mp3",
+    "cover": "images/SPG3.png"
+  },
+  {
+    "nome": "Alimentasson Playção",
+    "numero": "3",
+    "src": "music/SPG3/Alimentasson Playção.mp3",
+    "cover": "images/SPG3.png"
+  },
+  {
+    "nome": "XXT MEGA IRADA",
+    "numero": "4",
+    "src": "music/SPG3/XXT MEGA IRADA.mp3",
+    "cover": "images/SPG3.png"
+  },
+  {
+    "nome": "Mija (no teu home)",
+    "numero": "5",
+    "src": "music/SPG3/Mija (no teu home).mp3",
+    "cover": "images/SPG3.png"
+  }
+]

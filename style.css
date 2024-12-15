@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  size: 100%;
+
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #000000;
+  
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+.bttncontrols{
+  filter: invert(1);
+}
+
+.shufflebttn
+{   
+  filter: invert(21%) sepia(63%) saturate(6678%) hue-rotate(330deg) brightness(78%) contrast(114%);
+  cursor: pointer;
+}
+
+.bttncontrolsinvertidahorizontalmente{
+  filter: invert(1);
+  transform: scaleX(-1);
+}
+
+#background-overlay {
+  position: fixed; /* Fica fixo em relação à tela */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 200% 200%; /* Aumenta o tamanho do fundo para o efeito de movimento */
+  animation: gradientAnimation 10s ease infinite; /* Aplica a animação ao fundo */
+  z-index: -1; /* Coloca o overlay atrás de outros elementos */
+  opacity: 0; /* Começa invisível */
+  transition: opacity 1s ease; /* Transição suave para a opacidade */
+}
+
+/* Estilo para o overlay quando está ativo */
+#background-overlay.active {
+  opacity: 1; /* Torna visível */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button-container {
+  display: flex;                 /* Define o contêiner como flexível */
+  justify-content: center;       /* Centraliza os itens horizontalmente */
+  align-items: center;           /* Alinha os itens verticalmente */
+  gap: 5px;                     /* Espaço entre os botões */
+  
+}
+
+.artists
+{
+  margin: 20px;
+}
+
+.butaos 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-button {
+  background-color: #000000;     /* Cor de fundo inicial */
+  border: none;                  /* Remove borda */
+  color: white;                  /* Cor do texto */
+  padding: 8px 24px;             /* Espaçamento interno do botão */
+  
+  font-size: 16px;               /* Tamanho da fonte */
+  margin: 8px 2px;               /* Margem para espaçar os botões */
+  cursor: pointer;              /* Muda o cursor ao passar por cima */
+  border-radius: 12px;           /* Bordas arredondadas */
+  transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+/* Estilo para quando as cores forem invertidas */
+.styled-button.inverted {
+  background-color: white;       /* Cor de fundo branca */
+  color: #333;                   /* Cor do texto escura */
+}
+
+.styled-button:hover {
+  background-color: #202020;     /* Cor ao passar o mouse */
+  transform: scale(1.05);         /* Leve aumento ao passar o mouse */
+}
+
+.styled-button:active {
+  background-color: #ffffff;     /* Cor ao clicar no botão */
+}
+
+
+.player-container {
+  margin: 20px;
+  display: flex;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90vw;
+  max-width: 600px;
+  height: 70vh;
+  max-height: 500px;
+}
+
+.player {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  max-width: 500px;
+  height: 50vh;
+}
+
+.cover-image {
+  width: 40vw;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #331111;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #ff1414;
+  transition: width 0.1s linear;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.control-btn {
+  font-size: 24px; /* Tamanho padrão para desktops */
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#page-info {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40vw;
+  max-width: 600px;
+  height: 70vh;
+  max-height: 500px;
+  padding: 10px;
+  background-color: #5a1919;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.playlist ul {
+  list-style: none;
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-bottom: 15px;
+}
+
+.playlist li {
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playlist li.active,
+.playlist li:hover {
+  background-color: #1b1b1b;
+}
+
+.volume-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #331111;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.volume-bar {
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  transition: width 0.1s linear;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-btn {
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  .control-btn {
+    font-size: 6vw; /* Tamanho menor para dispositivos móveis */
+  }
+
+  .tit {
+    font-size: 5vw; /* Reduzir título em telas pequenas */
+  }
+
+  .player-container {
+    width: 85vw;
+    height: 60vh;
+  }
+
+  .cover-image {
+    width: 30vw;
+    max-width: 150px;
+  }
+
+  .playlist {
+    width: 85vw;
+    height: 60vh;
+  }
+
+  .pagination-btn {
+    font-size: 20px;
+  }  
+}

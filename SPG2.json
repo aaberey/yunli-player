@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "MEGA 50135",
+    "numero": "1",
+    "src": "music/SPG2/MEGA 50135.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "TA LIGADO",
+    "numero": "2",
+    "src": "music/SPG2/TA LIGADO.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "JACK & MIKE",
+    "numero": "3",
+    "src": "music/SPG2/JACK & MIKE.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "PINTORTO",
+    "numero": "4",
+    "src": "music/SPG2/PINTORTO.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "HOSPITAL S.A.",
+    "numero": "5",
+    "src": "music/SPG2/HOSPITAL S.A..mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "00SEXY O ESPIÃO QUE MAMAVA",
+    "numero": "6",
+    "src": "music/SPG2/00SEXY O ESPIÃO QUE MAMAVA.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "SIMSALABIM",
+    "numero": "7",
+    "src": "music/SPG2/SIMSALABIM.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "FAKE NEWS",
+    "numero": "8",
+    "src": "music/SPG2/FAKE NEWS.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "FELIZ DEMAIS",
+    "numero": "9",
+    "src": "music/SPG2/FELIZ DEMAIS.mp3",
+    "cover": "images/SPG2.png"
+  },
+  {
+    "nome": "MARCHA FUNEBRE II",
+    "numero": "10",
+    "src": "music/SPG2/MARCHA FUNEBRE II.mp3",
+    "cover": "images/SPG2.png"
+  }
+]
